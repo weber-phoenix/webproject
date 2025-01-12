@@ -1,0 +1,64 @@
+/*
+colors:
+black: #0B0C10
+dark gray: #1F2833
+light gray: #393a3b
+light teal: #69b0ad
+dark teal: #002f2b
+hover color: #517dac
+complementary color: #B0696C
+*/
+
+body {
+    background-color: #69b0ad ;
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    color:#0B0C10;
+}
+.centered{
+    text-align: center;
+}
+
+a:hover {
+    color: #517dac;
+}
+
+a {
+    color: #04211f;
+    font-weight: bold;
+}
+
+th, td {
+   border:  #B0696C solid 3px;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.fancy{
+    color: #002f2b;
+    background-color: #B0696C;
+    width: 600px;
+    height: 75px;
+    padding: 20px;
+    border: #002f2b dotted 10px;
+    margin: auto;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 35px;
+  }
+
+
+
